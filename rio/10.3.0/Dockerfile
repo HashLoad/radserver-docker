@@ -4,6 +4,8 @@ ENV NUMBER_VERSION=20
 ENV NAME_VERSION=rio
 ENV SEMANTIC_VERSION=10.3.0
 
+COPY httpd.conf /usr/local/apache2/conf
+
 RUN apt-get -y update \
     && apt-get -y install \
     wget \

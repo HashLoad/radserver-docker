@@ -4,6 +4,8 @@ ENV NUMBER_VERSION=19
 ENV NAME_VERSION=tokyo
 ENV SEMANTIC_VERSION=10.2.3
 
+COPY httpd.conf /usr/local/apache2/conf
+
 RUN apt-get -y update \
     && apt-get -y install \
     wget \
