@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:2.4.39
 
 ENV NUMBER_VERSION=20
 ENV NAME_VERSION=rio
@@ -14,7 +14,7 @@ RUN apt-get -y update \
     unzip \
     build-essential \
     zlib1g-dev \
-    libcurl3-gnutls \
+    libcurl3 \
     libcurl4-gnutls-dev \
     xterm \
     libpq5 \
