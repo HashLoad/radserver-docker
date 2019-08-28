@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:2.4.38
 
 ENV NUMBER_VERSION=19
 ENV NAME_VERSION=tokyo
