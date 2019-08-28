@@ -14,7 +14,7 @@ RUN apt-get -y update \
     unzip \
     build-essential \
     zlib1g-dev \
-    libcurl4 \
+    libcurl3-gnutls \
     libcurl4-gnutls-dev \
     xterm \
     libpq5 \
